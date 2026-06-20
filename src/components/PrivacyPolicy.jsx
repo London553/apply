@@ -26,7 +26,7 @@ export default function PrivacyPolicy() {
             <section className="space-y-4">
               <h2 className="text-3xl font-bold text-gray-900">1. Our Commitment</h2>
               <p>
-                SteadySearch is committed to protecting your personal data in compliance with the Nigeria Data Protection Act (NDPA) 2023. We process your data based on your explicit consent and for the performance of the services you requested.
+                Apply is committed to protecting your personal data in compliance with the Nigeria Data Protection Act (NDPA) 2023. We process your data based on your explicit consent and for the performance of the services you requested.
               </p>
             </section>
 
