@@ -8,9 +8,7 @@ export default function Footer() {
           {/* Brand */}
           <div className="space-y-4">
             <div className="flex items-center space-x-2">
-              <div className="text-2xl font-bold text-blue-400">{'<'}</div>
-              <span className="text-xl font-bold">OpportunityOS</span>
-              <div className="text-2xl font-bold text-purple-400">{' />'}</div>
+              <span className="text-xl font-bold">apply</span>
             </div>
             <p className="text-gray-400 text-sm">
               Your opportunities, our expertise.
@@ -22,9 +20,9 @@ export default function Footer() {
             <h4 className="font-bold text-white">Product</h4>
             <ul className="space-y-2 text-sm text-gray-400">
               <li><a href="#calculator" className="hover:text-white transition-colors">Calculator</a></li>
-              <li><a href="#features" className="hover:text-white transition-colors">Why Us</a></li>
+              <li><a href="#why-us" className="hover:text-white transition-colors">Why Us</a></li>
               <li><a href="#" className="hover:text-white transition-colors">Pricing</a></li>
-              <li><a href="#" className="hover:text-white transition-colors">How It Works</a></li>
+              <li><a href="#journey" className="hover:text-white transition-colors">How It Works</a></li>
             </ul>
           </div>
 

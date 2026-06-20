@@ -9,13 +9,7 @@ export default function Navbar() {
         <div className="flex justify-between items-center h-20">
           {/* Logo */}
           <div className="flex items-center space-x-2 group cursor-pointer">
-            <div className="text-2xl font-bold bg-gradient-to-r from-blue-600 to-purple-600 bg-clip-text text-transparent">
-              {'<'}
-            </div>
-            <span className="text-xl font-bold text-gray-900">OpportunityOS</span>
-            <div className="text-2xl font-bold bg-gradient-to-r from-blue-600 to-purple-600 bg-clip-text text-transparent">
-              {' />'}
-            </div>
+            <span className="text-xl font-bold text-gray-900">apply</span>
           </div>
 
           {/* Desktop Menu */}
@@ -23,10 +17,10 @@ export default function Navbar() {
             <a href="#calculator" className="text-gray-700 hover:text-gray-900 font-medium transition-all duration-300 hover:scale-105">
               Calculator
             </a>
-            <a href="#how-it-works" className="text-gray-700 hover:text-gray-900 font-medium transition-all duration-300 hover:scale-105">
+            <a href="#journey" className="text-gray-700 hover:text-gray-900 font-medium transition-all duration-300 hover:scale-105">
               How It Works
             </a>
-            <a href="#features" className="text-gray-700 hover:text-gray-900 font-medium transition-all duration-300 hover:scale-105">
+            <a href="#why-us" className="text-gray-700 hover:text-gray-900 font-medium transition-all duration-300 hover:scale-105">
               Why Us
             </a>
             <a href="#calculator" className="btn-primary text-sm">
