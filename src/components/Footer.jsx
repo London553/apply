@@ -53,7 +53,7 @@ export default function Footer() {
               © 2026 Apply. All rights reserved.
             </p>
             <div className="flex gap-6">
-              <a href="https://www.linkedin.com/company/applyng/about/?viewAsMember=true" target="_blank" rel="noopener noreferrer" className="text-gray-400 hover:text-white transition-colors">
+              <a href="https://x.com/Apply_ng" target="_blank" rel="noopener noreferrer" className="text-gray-400 hover:text-white transition-colors">
                 <span className="text-2xl">𝕏</span>
               </a>
               <a href="https://www.linkedin.com/company/applyng/about/?viewAsMember=true" target="_blank" rel="noopener noreferrer" className="text-gray-400 hover:text-white transition-colors">
