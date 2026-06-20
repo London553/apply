@@ -7,8 +7,8 @@ export default function Calculator({ onSubmit }) {
 
   // Pricing strategy: base price + per item
   const BASE_PRICE = 20
-  const JOB_PRICE = 8
-  const OPPORTUNITY_PRICE = 12
+  const JOB_PRICE = 400
+  const OPPORTUNITY_PRICE = 1000
 
   const totalCost = useMemo(() => {
     const weekly = BASE_PRICE + (jobs * JOB_PRICE) + (opportunities * OPPORTUNITY_PRICE)
@@ -60,14 +60,14 @@ export default function Calculator({ onSubmit }) {
               <input
                 type="range"
                 min="1"
-                max="50"
+                max="200"
                 value={jobs}
                 onChange={(e) => setJobs(Number(e.target.value))}
                 className="w-full h-3 bg-gradient-to-r from-blue-200 to-blue-400 rounded-lg appearance-none cursor-pointer accent-blue-600"
               />
               <div className="flex justify-between text-sm text-gray-500">
                 <span>1</span>
-                <span>50</span>
+                <span>200</span>
               </div>
             </div>
 
@@ -75,21 +75,21 @@ export default function Calculator({ onSubmit }) {
             <div className="space-y-4">
               <div className="flex justify-between items-center">
                 <label className="text-lg font-semibold text-gray-900">
-                  🎓 Other Opportunities per {duration === 'weekly' ? 'Week' : 'Month'}
+                  🎓 Apply per {duration === 'weekly' ? 'Week' : 'Month'}
                 </label>
                 <span className="text-3xl font-bold text-purple-600">{opportunities}</span>
               </div>
               <input
                 type="range"
                 min="0"
-                max="20"
+                max="80"
                 value={opportunities}
                 onChange={(e) => setOpportunities(Number(e.target.value))}
                 className="w-full h-3 bg-gradient-to-r from-purple-200 to-purple-400 rounded-lg appearance-none cursor-pointer accent-purple-600"
               />
               <div className="flex justify-between text-sm text-gray-500">
                 <span>0</span>
-                <span>20</span>
+                <span>80</span>
               </div>
             </div>
 
@@ -127,20 +127,20 @@ export default function Calculator({ onSubmit }) {
             <div className="bg-gradient-to-br from-blue-50 to-purple-50 rounded-xl p-6 space-y-3">
               <div className="flex justify-between items-center">
                 <span className="text-gray-700">Base Service Fee</span>
-                <span className="font-semibold text-gray-900">${BASE_PRICE}</span>
+                <span className="font-semibold text-gray-900">₦{BASE_PRICE}</span>
               </div>
               <div className="flex justify-between items-center">
-                <span className="text-gray-700">{jobs} Job Applications × ${JOB_PRICE}</span>
-                <span className="font-semibold text-gray-900">${jobs * JOB_PRICE}</span>
+                <span className="text-gray-700">{jobs} Job Applications × ₦{JOB_PRICE}</span>
+                <span className="font-semibold text-gray-900">₦{jobs * JOB_PRICE}</span>
               </div>
               <div className="flex justify-between items-center">
-                <span className="text-gray-700">{opportunities} Other Opportunities × ${OPPORTUNITY_PRICE}</span>
-                <span className="font-semibold text-gray-900">${opportunities * OPPORTUNITY_PRICE}</span>
+                <span className="text-gray-700">{opportunities} Apply × ₦{OPPORTUNITY_PRICE}</span>
+                <span className="font-semibold text-gray-900">₦{opportunities * OPPORTUNITY_PRICE}</span>
               </div>
               <div className="border-t border-gray-300 pt-3 flex justify-between items-center">
                 <span className="text-lg font-bold text-gray-900">Total per {duration === 'weekly' ? 'Week' : 'Month'}</span>
                 <span className="text-3xl font-bold bg-gradient-to-r from-blue-600 to-purple-600 bg-clip-text text-transparent">
-                  ${totalCost}
+                  ₦{totalCost}
                 </span>
               </div>
             </div>
@@ -154,7 +154,7 @@ export default function Calculator({ onSubmit }) {
             </button>
 
             <p className="text-center text-sm text-gray-500">
-              ✅ No credit card required. We'll send you our secure application form.
+              ✅ No debit card required.
             </p>
           </form>
         </div>

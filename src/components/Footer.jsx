@@ -13,7 +13,7 @@ export default function Footer() {
               <div className="text-2xl font-bold text-purple-400">{' />'}</div>
             </div>
             <p className="text-gray-400 text-sm">
-              Expert + Empathetic + Direct. Your opportunities, our expertise.
+              Your opportunities, our expertise.
             </p>
           </div>
 
@@ -33,9 +33,7 @@ export default function Footer() {
             <h4 className="font-bold text-white">Company</h4>
             <ul className="space-y-2 text-sm text-gray-400">
               <li><a href="#" className="hover:text-white transition-colors">About</a></li>
-              <li><a href="#" className="hover:text-white transition-colors">Blog</a></li>
-              <li><a href="#" className="hover:text-white transition-colors">Careers</a></li>
-              <li><a href="#" className="hover:text-white transition-colors">Contact</a></li>
+              <li><a href="https://docs.google.com/forms/d/e/1FAIpQLScB6c5Ykf9I4UBPLWQ4NrhGgchmmMVyVk3EiUgbgKQIzzh1JA/viewform?usp=sharing&ouid=101211381578045768826" target="_blank" rel="noopener noreferrer" className="hover:text-white transition-colors">Contact</a></li>
             </ul>
           </div>
 
@@ -43,9 +41,8 @@ export default function Footer() {
           <div className="space-y-3">
             <h4 className="font-bold text-white">Legal</h4>
             <ul className="space-y-2 text-sm text-gray-400">
-              <li><a href="#" className="hover:text-white transition-colors">Privacy Policy</a></li>
-              <li><a href="#" className="hover:text-white transition-colors">Terms of Service</a></li>
-              <li><a href="#" className="hover:text-white transition-colors">Security</a></li>
+              <li><a href="#privacy-policy" className="hover:text-white transition-colors">Privacy Policy</a></li>
+              <li><a href="#terms-of-service" className="hover:text-white transition-colors">Terms of Service</a></li>
             </ul>
           </div>
         </div>
@@ -55,16 +52,13 @@ export default function Footer() {
           {/* Social Links */}
           <div className="flex justify-between items-center flex-wrap gap-6">
             <p className="text-gray-400 text-sm">
-              © 2024 OpportunityOS. All rights reserved.
+              © 2026 OpportunityOS. All rights reserved.
             </p>
             <div className="flex gap-6">
-              <a href="#" className="text-gray-400 hover:text-white transition-colors">
+              <a href="https://www.linkedin.com/company/applyng/about/?viewAsMember=true" target="_blank" rel="noopener noreferrer" className="text-gray-400 hover:text-white transition-colors">
                 <span className="text-2xl">𝕏</span>
               </a>
-              <a href="#" className="text-gray-400 hover:text-white transition-colors">
-                <span className="text-2xl">f</span>
-              </a>
-              <a href="#" className="text-gray-400 hover:text-white transition-colors">
+              <a href="https://www.linkedin.com/company/applyng/about/?viewAsMember=true" target="_blank" rel="noopener noreferrer" className="text-gray-400 hover:text-white transition-colors">
                 <span className="text-2xl">in</span>
               </a>
             </div>

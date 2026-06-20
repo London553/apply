@@ -3,7 +3,7 @@ import React from 'react'
 export default function Modal({ isOpen, onClose, data }) {
   if (!isOpen) return null
 
-  const jotformLink = 'https://www.jotform.com/build/261675145083055'
+  const applicationFormLink = 'https://docs.google.com/forms/d/e/1FAIpQLSf0gZvqb_SqRq07a3alS5nl4Encf5J5UjU7FG8cwcmNlhTeIQ/viewform?usp=sharing&ouid=101211381578045768826'
 
   return (
     <>
@@ -53,7 +53,7 @@ export default function Modal({ isOpen, onClose, data }) {
               <span className="text-2xl">💰</span>
               <div>
                 <p className="text-xs text-gray-500">Total Investment</p>
-                <p className="font-bold text-gray-900">${data?.totalCost}/{data?.duration}</p>
+                <p className="font-bold text-gray-900">₦{data?.totalCost}/{data?.duration}</p>
               </div>
             </div>
           </div>
@@ -64,7 +64,7 @@ export default function Modal({ isOpen, onClose, data }) {
               Complete your application now:
             </p>
             <a
-              href={jotformLink}
+              href={applicationFormLink}
               target="_blank"
               rel="noopener noreferrer"
               className="btn-primary block text-center"

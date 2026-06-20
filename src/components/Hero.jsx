@@ -47,11 +47,8 @@ export default function Hero() {
               href="#calculator"
               className="btn-primary inline-block"
             >
-              Calculate Your Price
+              Get Started
             </a>
-            <button className="btn-secondary inline-block">
-              Learn More
-            </button>
           </div>
         </div>
 

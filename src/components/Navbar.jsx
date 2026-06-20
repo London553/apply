@@ -29,9 +29,9 @@ export default function Navbar() {
             <a href="#features" className="text-gray-700 hover:text-gray-900 font-medium transition-all duration-300 hover:scale-105">
               Why Us
             </a>
-            <button className="btn-primary text-sm">
+            <a href="#calculator" className="btn-primary text-sm">
               Get Started
-            </button>
+            </a>
           </div>
 
           {/* Mobile Menu Button */}
@@ -59,7 +59,7 @@ export default function Navbar() {
             <a href="#features" className="block px-4 py-2 text-gray-700 hover:bg-gray-200 rounded-lg transition-all">
               Why Us
             </a>
-            <button className="w-full btn-primary text-sm">Get Started</button>
+            <a href="#calculator" className="w-full btn-primary text-sm">Get Started</a>
           </div>
         )}
       </div>
