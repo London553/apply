@@ -61,7 +61,7 @@ export default function Hero() {
                 <span className="text-3xl">📝</span>
                 <div>
                   <p className="text-sm font-semibold text-gray-900">Applications Submitted</p>
-                  <p className="text-2xl font-bold text-blue-600">247</p>
+                  <p className="text-2xl font-bold text-blue-600">310</p>
                 </div>
               </div>
             </div>
@@ -83,7 +83,7 @@ export default function Hero() {
                 <span className="text-3xl">😊</span>
                 <div>
                   <p className="text-sm font-semibold text-gray-900">Happy Clients</p>
-                  <p className="text-2xl font-bold text-purple-600">1,200+</p>
+                  <p className="text-2xl font-bold text-purple-600">200+</p>
                 </div>
               </div>
             </div>
